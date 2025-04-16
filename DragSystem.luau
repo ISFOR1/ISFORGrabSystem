@@ -408,7 +408,7 @@ function DragSystem:Update()
 		newRot = rotationDelta * newRot
 	end
 
-	-- Update the part's full CFrame (combining new position and rotation)
+	-- Update the part's full CFrame
 	self.part.CFrame = CFrame.new(newPos) * newRot
 end
 
