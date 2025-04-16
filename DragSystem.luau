@@ -50,7 +50,7 @@ local Players = game:GetService("Players")
 -- Print welcome message when module is required
 local function printWelcome()
 	local messages = {
-		"Welcome to ISFOR's Professional Drag System!",
+		"Welcome to ISFOR's Drag System!",
 		"Version: 1.1 (with extended features)",
 		"Initialized and ready to use.",
 		"Thank you for using ISFOR's Drag System!"
